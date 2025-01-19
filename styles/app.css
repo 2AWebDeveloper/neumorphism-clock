@@ -176,6 +176,15 @@ section {
         width: 280px;
         height: 280px;
     }
+    .needle.hours {
+        height: 54px;
+    }
+    .needle.minute {
+        height: 72px;
+    }
+    .needle.second {
+        height: 82px;
+    }
 }
 
 @media only screen and (max-width: 340px) {
