@@ -71,22 +71,22 @@ section {
     color: var(--slate-700);
 }
 .text-1 {
-    right: 20px;
+    right: 22px;
     top: 0;
     bottom: 0;
 }
 .text-2 {
-    bottom: 20px;
+    bottom: 16px;
     left: 0;
     right: 0;
 }
 .text-3 {
-    left: 20px;
+    left: 22px;
     bottom: 0;
     top: 0;
 }
 .text-4 {
-    top: 20px;
+    top: 16px;
     left: 0;
     right: 0;
 }
@@ -119,7 +119,7 @@ section {
 .needle.minute {
     width: 5px;
     height: 84px;
-    transform: translate(-50%, -100%) rotate(5deg);
+    transform: translate(-50%, -100%) rotate(0deg);
 }
 .needle.second {
     width: 3px;
@@ -180,26 +180,25 @@ section {
         height: 54px;
     }
     .needle.minute {
-        height: 72px;
+        height: 70px;
     }
     .needle.second {
-        height: 82px;
+        height: 86px;
     }
 }
-
 @media only screen and (max-width: 340px) {
     .clock {
         width: 260px;
         height: 260px;
     }
     .needle.hours {
-        height: 56px;
+        height: 48px;
     }
     .needle.minute {
-        height: 70px;
+        height: 62px;
     }
     .needle.second {
-        height: 78px;
+        height: 76px;
     }
     .time {
         font-size: 4rem;
